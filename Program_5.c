@@ -11,12 +11,14 @@ int main()
 {
     int a, b, temp;
     scanf("%d%d", &a, &b);
-
+    printf("Numbers before swap = %d %d\n" , a, b);
     //Write your code here
-    
+    temp=a;
+    a=b;
+    b=temp;
     
 
   
-    printf("%d %d\n", a, b);
+    printf("Numbers After swap = %d %d\n", a, b);
     return 0;
 }
