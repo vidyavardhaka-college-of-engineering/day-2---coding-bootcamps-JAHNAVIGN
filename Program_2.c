@@ -4,10 +4,10 @@
 int main()
 {
 //Replace Your Code and values in bellow two lines
-int age = 19;
-float weight = 55;
-printf("%d\n",age);
-printf("%f",weight);//If you done correct you will get this meessage 
+int age = 22;
+float weight =40.5;
+
+//If you done correct you will get this meessage 
 printf("Good Job..");
 
 return 0;

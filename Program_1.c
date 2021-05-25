@@ -4,11 +4,11 @@ the word "TYPE" */
 #include<stdio.h>
 int main()
 {
-int a = 100;
+int num = 100;
 char letter = 'A';
 /* Printing num and charecter value */
-printf("%d\n",a);
-printf("%c\n",letter);
+printf("The number is %d\n",num);
+printf("The letter is %c\n",letter);
 /* if you done creerct you will get bellow message */
 printf("Good Job...");
 return 0;
